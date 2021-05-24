@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/styles.scss","../scss/_colors.scss"],"names":[],"mappings":"AAGA;EACE;;AACA;EACE,OCNU;EDOV,kBCNY;;ADQd;EACE,OCTY;;ADWd;EACE,OCbU;EDcV,kBCbY;;ADcZ;EACE,OCfU;EDgBV,kBCjBQ;;;AD0BZ;EACE,WAHI;;;AAEN;EACE,WAHI;;;AAEN;EACE,WAHI;;;AAeR;EACE,OCxCY;EDyCZ,kBCxCc;EDyCd;EACA;;AARA;EAIF;IAMI;;;AAEF;EARF;IASI","file":"styles.css"}

@@ -1,0 +1,55 @@
+@use "colors" as c;
+
+//part one
+.main{
+  text-align: center;
+  & .main-title{
+    color:c.$primarycolor;
+    background-color: c.$secondarycolor;
+  }
+  & .main-subtitle{
+    color: c.$secondarycolor;
+  }
+  & .main-btn {
+    color:c.$primarycolor;
+    background-color: c.$secondarycolor;
+    &:hover{
+      color:c.$secondarycolor; 
+      background-color: c.$primarycolor;
+    }
+
+  }
+}
+
+//part two
+$sizes: 18px, 16px, 14px;
+@each $size in $sizes {
+  .font-#{$size} {
+    font-size: $size;
+  }
+}
+
+
+
+//part three
+@mixin tablet-screen {
+  @media only screen and (max-width: 768px) {
+    @content;
+  }
+}
+.finish-btn {
+  color:c.$primarycolor;
+  background-color: c.$secondarycolor;
+  width: 100px;
+  height: 50px;
+  @include tablet-screen {
+    width: 50%;
+  }
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+  }
+}
+
+
+
+
